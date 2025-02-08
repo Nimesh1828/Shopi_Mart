@@ -23,6 +23,7 @@ public class SignUp extends AppCompatActivity {
         binding.signupButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                binding.FirstName.getText().toString();
                 String email = binding.signupEmail.getText().toString();
                 String password = binding.signupPassword.getText().toString();
                 String confirmPassword = binding.signupConfirm.getText().toString();

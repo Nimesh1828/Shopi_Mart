@@ -23,13 +23,24 @@
             android:padding="20dp"
             tools:ignore="MissingConstraints,UselessParent">
 
-            <ImageView
+            <!-- <ImageView
                 android:id="@+id/imageView3"
                 android:layout_width="match_parent"
                 android:layout_height="158dp"
                 android:layout_gravity="center"
                 app:srcCompat="@mipmap/circle_round"
-                tools:ignore="ContentDescription,ObsoleteLayoutParam" />
+                tools:ignore="ContentDescription,ObsoleteLayoutParam" />-->
+
+            <EditText
+                android:id="@+id/First_Name"
+                android:hint="First Name"
+                android:layout_width="350dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="30dp"
+                android:autofillHints=""
+                android:background="@drawable/lavender_border"
+                android:drawableStart="@drawable/baseline_abc_24"
+                android:drawablePadding="8dp"/>
 
             <EditText
                 android:id="@+id/signup_email"
@@ -56,6 +67,7 @@
                 android:drawableStart="@drawable/baseline_lock_24"
                 android:drawablePadding="8dp"
                 android:hint="@string/password"
+                android:textColor="@color/black"
                 android:inputType="textPassword"
                 android:padding="8dp" />
 

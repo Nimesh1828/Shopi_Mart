@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">QR&amp; BarCode</string>
+    <string name="app_name" translatable="false">QR&amp; BarCode</string>
     <string name="password">Password</string>
     <string name="email">Email</string>
     <string name="sign_up">Sign Up</string>
@@ -11,4 +11,5 @@
     <string name="history">History</string>
     <string name="help">Help</string>
     <string name="scan">Scan</string>
+    <string name="homefragment">HomeFragment</string>
 </resources>
