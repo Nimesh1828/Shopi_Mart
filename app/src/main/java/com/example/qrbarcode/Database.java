@@ -24,7 +24,7 @@ public class Database extends SQLiteOpenHelper {
         MyDB.execSQL("drop Table if exists users");
     }
 
-    public Boolean insertData(String email, String password) {
+    public Boolean insertData(String email, String password, String s) {
         SQLiteDatabase MyDatabase = this.getWritableDatabase();
         ContentValues contentValues = new ContentValues();
         contentValues.put("email", email);

@@ -84,6 +84,18 @@
                 android:inputType="textPassword"
                 android:padding="8dp" />
 
+            <EditText
+                android:id="@+id/Card_number"
+                android:layout_width="350dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:autofillHints=""
+                android:background="@drawable/lavender_border"
+                android:drawableStart="@drawable/baseline_credit_card_24"
+                android:drawablePadding="8dp"
+                android:hint="Card Number"
+                android:padding="8dp" />
+
             <Button
                 android:id="@+id/signup_button"
                 android:layout_width="320dp"
